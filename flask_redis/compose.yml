@@ -1,0 +1,7 @@
+services:
+  web:
+    build: .
+    ports:
+      - "8010:5000"
+  redis:
+    image: "redis:alpine"
